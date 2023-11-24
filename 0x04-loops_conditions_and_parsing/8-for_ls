@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#list the files in the current directory in a special way
+
+ls -l -*
