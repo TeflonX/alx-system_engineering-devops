@@ -7,7 +7,7 @@ then
 
 	if [ ! -s school ]
 	then
-		echo "school is empty"
+		echo "school file is empty"
 	else
 		echo "school file is not empty"
 	fi
