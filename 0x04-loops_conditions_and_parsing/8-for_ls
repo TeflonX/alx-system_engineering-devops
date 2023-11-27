@@ -2,7 +2,7 @@
 #list the files in the current directory in a special way
 
 LIST="$(ls)"
-for i in "$LIST"
+for i in $LIST
 do :
-	echo "$i" | cut -d '-' -f2-
+	echo "${i#*-}"
 done
