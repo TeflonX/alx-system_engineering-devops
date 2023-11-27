@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 #list the files in the current directory in a special way
 
-ls -l -*
+LIST="$(ls)"
+for i in "$LIST"
+do :
+	echo "$i" | cut -d '-' -f2-
+done
