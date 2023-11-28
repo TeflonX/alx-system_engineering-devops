@@ -5,6 +5,7 @@ signal()
 {
 	echo "I hate the kill command"
 	rm -f /var/run/myscript.pid
+	exit
 }
 
 second_signal()
